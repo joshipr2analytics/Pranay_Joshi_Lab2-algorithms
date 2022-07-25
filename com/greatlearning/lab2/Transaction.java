@@ -16,7 +16,7 @@ class  Transaction{
             System.out.println("Enter the total no. of targets that needs to be acheived");
             int targetno= s.nextInt();
 
-            while(targetno-- !=0){
+            while(targetno!=0){
                 int flag=0;
                 long target;
 
